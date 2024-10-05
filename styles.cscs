@@ -1,0 +1,169 @@
+/* Global Styles */
+body {
+    background-color: #1a1a1a;
+    color: #f5f5f5;
+    font-family: 'Trajan Pro', serif;
+    margin: 0;
+    padding: 0;
+}
+
+/* Header Section */
+header {
+    background: url('images/gladiator-bg.jpg') no-repeat center center;
+    background-size: cover;
+    color: white;
+    text-align: center;
+    padding: 60px 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.7);
+}
+
+header h1 {
+    font-size: 4em;
+    margin: 0;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+}
+
+header p {
+    font-size: 1.5em;
+    margin: 10px 0 0;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+/* Container */
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 40px 20px;
+    text-align: center;
+}
+
+/* Intro Section */
+.intro {
+    margin-bottom: 50px;
+}
+
+.intro h2 {
+    font-size: 2.5em;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+}
+
+.intro p {
+    font-size: 1.2em;
+    line-height: 1.8;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+/* Features Section */
+.features {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 50px;
+}
+
+.feature {
+    background-color: #292929;
+    padding: 20px;
+    border-radius: 10px;
+    width: 30%;
+    text-align: center;
+}
+
+.feature h3 {
+    font-size: 1.8em;
+    margin-bottom: 10px;
+}
+
+.feature p {
+    font-size: 1.2em;
+}
+
+.feature img {
+    margin-bottom: 15px;
+    width: 80px;
+    height: auto;
+}
+
+/* Roadmap Section */
+.roadmap {
+    margin: 50px 0;
+}
+
+.roadmap h2 {
+    font-size: 3em;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+}
+
+.roadmap ul {
+    list-style-type: none;
+    padding: 0;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.roadmap li {
+    margin: 20px 0;
+    font-size: 1.5em;
+    position: relative;
+    padding-left: 40px;
+}
+
+.roadmap li::before {
+    content: '⚔️';
+    font-size: 1.8em;
+    position: absolute;
+    left: 0;
+    top: -5px;
+}
+
+/* Coliseum Section */
+.coliseum {
+    background: url('images/coliseum.jpg') no-repeat center center;
+    background-size: cover;
+    padding: 60px 20px;
+    text-align: center;
+    border-radius: 10px;
+    margin-top: 50px;
+    color: white;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.7);
+}
+
+.coliseum h2 {
+    font-size: 3.5em;
+    margin-bottom: 20px;
+}
+
+.coliseum p {
+    font-size: 1.5em;
+    color: #f5f5f5;
+}
+
+.alphas-only {
+    display: inline-block;
+    background-color: #000;
+    color: #fff;
+    padding: 10px 20px;
+    font-size: 1.2em;
+    border-radius: 5px;
+    margin-top: 20px;
+    font-weight: bold;
+    letter-spacing: 3px;
+}
+
+/* Footer Section */
+footer {
+    padding: 20px;
+    background-color: #333;
+    color: white;
+    text-align: center;
+}
+
+/* Image Responsiveness */
+img {
+    max-width: 100%;
+    height: auto;
+}
