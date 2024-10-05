@@ -122,6 +122,7 @@ header p {
 
 /* Coliseum Section */
 .coliseum {
+    background-color: #000; /* Black background */
     background: url('images/coliseum.jpg') no-repeat center center;
     background-size: cover;
     padding: 60px 20px;
@@ -129,8 +130,8 @@ header p {
     border-radius: 10px;
     margin-top: 50px;
     color: white;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.7);
 }
+
 
 .coliseum h2 {
     font-size: 3.5em;
